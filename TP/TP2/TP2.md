@@ -28,3 +28,7 @@ Ecrire à l'aide des devtools les requêtes suivantes sur le nouvel index bank2 
 ## 3eme partie : utilisation de KQL et filters
 
 Dans l'onglet discover, ré-écrire les requêtes de la partie 2 à l'aide de KQL et/ou des filtres. Sauvegarder ces filtres.
+
+## 4eme partie : découverte des maps
+
+Créer une visualisation de type map, pour afficher la somme du champ "balance" par état (state) sur la carte des Etats-Unis.
