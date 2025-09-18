@@ -8,7 +8,7 @@ GET bank
 ```
 PUT bank2
 {
-    "mapping" : {
+    "mappings" : {
         "properties" : {
             "account_number" : {
                 "type" : "number"
