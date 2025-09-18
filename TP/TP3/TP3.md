@@ -114,7 +114,7 @@ Exemple pour la dernière ligne :
 Créer l'index (my-index) avec les mappings correspondant à la pipeline, et insérer les données
 
 ```
-curl -ku 'elastic' 'https://localhost:9200/my-index/_bulk' -H"Content-Type: application/json" --data-binary @data.ndjson
+curl -ku elastic:MOTDEPASSE https://localhost:9200/my-index/_bulk -H"Content-Type: application/json" --data-binary @data.ndjson
 ```
 
 Ecrire une requête bool qui filtre sur le niveau de logs (info).
