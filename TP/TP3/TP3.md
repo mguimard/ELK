@@ -95,6 +95,8 @@ Créer la pipeline (my-pipeline) pour extraire les données, les champs à extra
 - message (text): "started TCP listener on [::]:5672"
 - `original_message` (non indexé) : toute la ligne originelle
 
+Note: Le format de date est le suivant : "yyyy-MM-dd HH:mm:ss.SSSSSSZZZZZ"
+
 Exemple pour la dernière ligne :
 
 ```json
