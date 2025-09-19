@@ -14,7 +14,7 @@ PUT sncf
       "Nombre_Non_Conformites": {
         "type": "long"
       },
-      "Nombre_observations": {
+      "Nombre_Observations": {
         "type": "long"
       }
     }
