@@ -1,0 +1,23 @@
+PUT sncf
+{
+  "mappings": {
+    "properties": {
+      "Fin_controle": {
+        "type": "date"
+      },
+      "Gare": {
+        "type": "keyword"
+      },
+      "Gare_Code_UIC": {
+        "type": "keyword"
+      },
+      "Nombre_Non_Conformites": {
+        "type": "long"
+      },
+      "Nombre_observations": {
+        "type": "long"
+      }
+    }
+  }
+}
+
