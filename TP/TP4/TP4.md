@@ -51,7 +51,8 @@ output.elasticsearch:
   hosts: ["https://localhost:9200"]
   username: "elastic"
   password: "changeme"
-  ssl.certificate_authorities: ["/Users/etudiant/certs/ca.crt"]
+  ssl.verification_mode: none
+  #ssl.certificate_authorities: ["/Users/etudiant/certs/ca.crt"]
   # ssl.certificate_authorities: ["C:\Users\etudiant\certs\ca.crt"]
 
 setup.kibana:
